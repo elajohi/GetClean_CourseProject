@@ -7,21 +7,24 @@ original source. Please refer to this document.
 
 ## Output data in *run_anylsis_tidy.txt*:
 
-1. activity:
+1. **activity**:
    activity performed by the subject
+   
    	    WALKING
-            WALKING_UPSTAIRS
+        WALKING_UPSTAIRS
 	    WALKING_DOWNSTAIRS
 	    SITTING
-            STANDING
+        STANDING
 	    LAYING  
 
-2. subject:
+2. **subject**:
    id number of the test person performing the activity
-      	     numbered 1..30
+   
+      	 numbered 1..30
 	     
-3. signal:
+3. **signal**:
    type of measurement performed as described in the input data
+   
    	     tBodyAcc
 	     tGravityAcc
 	     tBodyAccJerk
@@ -40,14 +43,15 @@ original source. Please refer to this document.
 	     fBodyGyroMag
 	     fBodyGyroJerkMag
 
-4. direction: 
+4. **direction**: 
+
 	     X, Y, Z for 3-axial signals in the X, Y and Z directions
 	     NA      otherwise
 
-5. mean:
+5. **mean**:
    averaged mean value for each combination of activity, subject, signal
    and direction
 
-6. std:
+6. **std**:
    averaged standard deviation for each combination of activity, subject
    signal and direction
