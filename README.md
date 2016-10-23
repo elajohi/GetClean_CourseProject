@@ -14,7 +14,8 @@ Running the script will generate the following output files:
 * `UCI HAR Dataset/`: unzipped original data
 * `data/run_analysis_tidy.txt`: tidied data frame as described in `CodeBook.md`
 
-## Required libraries for this analysis:
+Required libraries for this analysis:
+
     library(plyr)
     library(dplyr)
     library(tidyr)
